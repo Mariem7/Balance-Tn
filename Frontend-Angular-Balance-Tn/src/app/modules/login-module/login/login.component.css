@@ -1,0 +1,108 @@
+body{
+    margin-top:20px;
+    background:#eee;
+}
+
+.container {
+    margin-top:17.5vh;
+    margin-bottom: 15.9vh;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+        max-height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+
+.card-columns .card {
+    margin-bottom: 0.75rem;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 3;
+        column-gap: 1.25rem;
+    }
+    .card-columns .card {
+        display: inline-block;
+        width: 100%;
+    }
+}
+.text-muted {
+    color: #9faecb !important;
+    padding-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.btn-margin-style{
+    width: 100% !important;
+}
+
+.div-forget-password{
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.link-forget-password{
+    text-decoration: none !important;
+}
+
+.inscrire{
+    color: rgb(139, 139, 139) !important;
+    padding-top:10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.btn-success{
+    background-color: #6aaf25 !important;
+}
+
+.btn-success:hover{
+    background-color: #62A620 !important;
+}
+
+.btn-primary:hover{
+    background-color: #166FE5 !important;
+}
+
