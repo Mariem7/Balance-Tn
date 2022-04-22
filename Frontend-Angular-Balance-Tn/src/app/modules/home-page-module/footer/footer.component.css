@@ -1,0 +1,10 @@
+footer {
+    background: linear-gradient(to right,#002369, #1201af);
+    color: #fff;
+    text-align: center;/* Height of the footer */
+    
+}
+
+footer a {
+    color: #fff;
+}
